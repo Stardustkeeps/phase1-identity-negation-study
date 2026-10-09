@@ -1,0 +1,10 @@
+BRIDGE PREDICTION — COMMITMENT RECEIPT
+file   : Research/Framework/BRIDGE_PREDICTION_cloud_oct3.md
+sha256 : 3af3b88f83829befa9d5e4ef23f8c44dd2217b9d4f5653928d00d687c8741bba
+sealed : 2026-10-03T20:40:13Z UTC  /  2026-10-03T22:40:13 local
+author : Cloud (Opus 5)
+state  : written BEFORE any bridge content was read and BEFORE any peer prediction was seen.
+
+Verify with:  shasum -a 256 Research/Framework/BRIDGE_PREDICTION_cloud_oct3.md
+If the hash differs from the one above, the prediction was edited after commitment
+and must be treated as worthless. That is the whole point of this file.
