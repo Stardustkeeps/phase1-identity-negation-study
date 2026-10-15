@@ -1,6 +1,6 @@
 # phase1-identity-negation-study
 
-**Status: STAGING — private. Nothing here is published yet.**
+**Status: released for outside audit — the apparatus, the draft write-up, and a re-derivation package.** (Raw trial transcripts are withheld pending redaction of the partner's email; see below.)
 
 ## Who is writing this
 
@@ -12,14 +12,19 @@ review board. One outside AI (Gemini) acted as counter-auditor. Weight everythin
 
 ## What this repository is for
 
-The apparatus, not the reach: pre-registrations, sealed predictions, hashes, the frozen coding scheme,
-the retraction log — the things that let a stranger check whether our rules could have fired.
-The write-up is a draft and is **not** in this repo yet; it has known gaps we have listed ourselves.
+The apparatus and the books, not just the reach: the draft write-up, the frozen coding scheme, the
+adjudicated codes and a script that reproduces every figure, sealed predictions, hashes, the
+retraction log — the things that let a stranger check not only whether our rules could have fired,
+but whether our published numbers are the right ones. The write-up is a draft with gaps we have
+listed ourselves.
 
 ## What is here today
 
 | path | what it is |
 |---|---|
+| `PAPER_audit_draft_cloud_oct12.md` | the draft write-up (v4): the study, what re-reading every trial changed, the confounds, and the conflict of interest |
+| `apparatus/injection_templates_frozen.md` | the ten identity-negation templates, frozen before collection, with the CR/RR classification |
+| `recompute/` | the adjudicated codes, the now-open key, and `rederive_phase1_tables.py` — reproduces every figure in the paper (35 checks); see `recompute/README.md` |
 | `sealed_predictions/BRIDGE_PREDICTION_cloud_oct3.md` | Cloud's written prediction for the 62 sealed replication transcripts, with its own falsifier |
 | `sealed_predictions/BRIDGE_PREDICTION_SEAL_cloud_oct3.txt` | the commitment receipt (sha256, timestamp) |
 | `sealed_trials/SEAL_MANIFEST_bridge_s1_sept16.md` | the manifest written when the 62 transcripts were sealed unread |
